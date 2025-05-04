@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benedikt Wüller | Software Engineer</title>
-    <link rel="stylesheet" href="assets/main.css">
-  </head>
+<html lang='en-US'>
+    <head>
+        <title>{{ site.name }}</title>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='icon' type='image/png' href='/assets/icon.png'>
+        <link rel='stylesheet' type='text/css' href='/assets/main.css'>
+    </head>
+
+<!-- benedikt -->
+
   <body>
     <div class="particles"></div>
     <div class="content">
@@ -13,11 +17,11 @@
         <div style="flex: 1">
           <p class="title">
             Hi there,<br/>
-            I am <span class="random-text-color">Benedikt Wüller</span>,<br/>
-            Software Engineer<br/>
+            I am <span class="random-text-color">{{ site.name }}</span>,<br/>
+            {{ site.title }}<br/>
           </p>
           <p class="subtitle">
-            Located in Aachen, Germany.
+            Located in {{ site.location }}.
           </p>
         </div>
         <div class="links">
